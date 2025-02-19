@@ -67,21 +67,22 @@ header{
     text-decoration: none;
     color: aliceblue;
 }
-.a-p
-.more-project{
-    padding: 1rem;
-    display: inline;
-    border: 1px solid black;
+.see-more{
+    padding: 10px;
+    display: inline-block;
+}
+.more-p{
+    text-align: center;
+    color: aliceblue;
+    border: 1px solid white;
 }
 
 
 /*-----------about me----------*/
 .about{
-    margin: 10px;
+    margin: 2rem;
     padding: 1.5rem;
     display: flex;
-    justify-content: left;
-    align-items: center;
     gap: 1rem;
     border: 1px solid aliceblue;
     border-radius: 10px;
@@ -92,16 +93,32 @@ header{
 }
 .about-img img{
     height: 100%;
+    border-radius: 10px;
 }
 .about-text{
     padding: 0.5rem;
     color: white;
 }
-.name
-.profile
-.info
-.details{
-    color: wheat;
-}
+
+
 /*-----------contact me----------*/
+.contact
+.contact-sec{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec-content1
+.address
+.add-text
+
+.sec-content2
+.sec-contact
+.email
+
+.sec-content3
+.media
+.media-links{
+    display: flex;
+}
 /*-----------footer----------*/
